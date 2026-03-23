@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+env/
+venv/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb
+
+# Data outputs (large files — store externally or in a data repository)
+*.csv
+*.geojson
+*.xlsx
+*.xls
+
+# Google Earth Engine credentials
+.config/earthengine/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
