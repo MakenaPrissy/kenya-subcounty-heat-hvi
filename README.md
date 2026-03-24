@@ -107,7 +107,7 @@ The script generates the following CSV files:
 
 The first archived release of this repository is available on Zenodo:
 
-DOI:[doi.org/10.5281/zenodo.19200614](https://doi.org/10.5281/zenodo.19201792)
+DOI:
 
 If you use this repository, please cite the Zenodo record associated with the release.
 
