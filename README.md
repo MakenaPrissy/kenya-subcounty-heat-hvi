@@ -38,7 +38,7 @@ climate-hvi-kenya/
 ├── .gitignore
 ├── requirements.txt
 └── analysis/
-    └── climate_hvi_kenya.py   # Main Google Earth Engine analysis script
+    └── national_h38_timeseries.py   # Main Google Earth Engine analysis script
 ```
 
 ---
@@ -56,7 +56,7 @@ climate-hvi-kenya/
 
 ## Analysis Script
 
-The script [`analysis/climate_hvi_kenya.py`](analysis/climate_hvi_kenya.py) was developed in Google Colab using the **Google Earth Engine Python API** and covers:
+The script [`analysis/national_h38_timeseries.py`](analysis/national_h38_timeseries.py) was developed in Google Colab using the **Google Earth Engine Python API** and covers:
 
 - Extraction of age-stratified population denominators (elderly 60+, children 0–4, infants, women of reproductive age) per sub-county per year
 - Calibration of estimated annual births and pregnancies using national anchor-year data
@@ -76,7 +76,7 @@ earthengine authenticate
 
 # 3. Run in Google Colab or a local environment
 #    Update the project ID (currently "ee-felixoluoch") to your own GEE project
-python analysis/climate_hvi_kenya.py
+python analysis/national_h38_timeseries.py
 ```
 
 > **Note:** Replace `ee-felixoluoch` with your own Google Earth Engine project ID before running.
